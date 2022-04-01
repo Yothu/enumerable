@@ -5,6 +5,10 @@ class MyList
   def initialize(*args)
     @list = args
   end
+
+  def each
+    @list.each { |e| yield e if block_given? }
+  end
 end
 
 list = MyList.new(2, 2, 3)

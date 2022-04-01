@@ -22,4 +22,4 @@ print(list.any? { |e| e == 2 }, "\n")
 print(list.any? { |e| e == 5 }, "\n")
 
 # Test #filter
-print(list.filter { |e| &.even? }, "\n")
+# print(list.filter { |e| e.even? }, "\n")
